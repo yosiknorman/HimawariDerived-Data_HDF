@@ -1,0 +1,19 @@
+
+# {c} Yosik Norman, 2017 
+
+code is used for reading fulldisk himawari data
+dependency for this program (GDAL,rhdf5, R.matlab)
+installation for rhdf5 packages 
+
+
+
+### write this code ####
+#------------------- START ------------------------
+#!/usr/bin/Rscript
+
+source("https://bioconductor.org/biocLite.R")
+biocLite("rhdf5")
+install.packages("R.matlab")
+#------------------- FINISH -----------------------
+
+
